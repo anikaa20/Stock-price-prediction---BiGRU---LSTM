@@ -49,7 +49,7 @@ The `Hybrid BiGRU-LSTM` model consists of:
 The `get_technical_indicators` function calculates the following features based on the 'close' price:
 * **Moving Averages (MA):** 7-day (`ma7`) and 21-day (`ma21`).
 * **Moving Average Convergence Divergence (MACD):** Calculated using 12-day and 26-day Exponential Moving Averages (EMAs). Intermediate EMAs (`12ema`, `26ema`) are also kept.
-* **Bollinger Bands:** Upper (`upper_band`) and lower (`lower_band`) bands based on a 20-day MA and 2 standard deviations (`20sd`).
+* **Bollinger Bands:** Upper (`upper_band`) and lower (`lower_band`) bands based on a 20-day MA and 2 standard deviations (`2sd`).
 * **Exponential Moving Average (EMA):** `ema` with a center of mass `com=0.5`.
 * **Momentum:** Simple momentum calculation `(close/100)-1`.
 
